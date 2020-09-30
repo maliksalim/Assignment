@@ -1,0 +1,228 @@
+body{
+    margin: 0px;justify-content: center;
+    align-content: center;
+    width: 100%;
+font-family:Helvetica;
+}*{
+    box-sizing: border-box;
+}
+header{width: 100%;
+       justify-content: space-around;
+    height: 218px;padding: 0px;
+    }
+header ul {
+    display:flex;
+	margin: 0px;
+	padding: 0px;
+	align-items: center;
+	justify-content: flex-start;
+	position: relative;
+font-size: 18px;}
+header ul li
+{position: relative;
+	list-style: none;
+}
+header ul li:hover{
+	background: greenyellow;
+	border: 1px ;
+}
+header ul li a{text-decoration: none;
+position: relative;list-style: none;
+color:navy;
+display: block;
+padding:0px 10px;margin:0px;
+}
+.toggle{
+    width: 100%;
+    padding:10px 20px;
+    background-color:navy ;
+    color: white;
+    box-sizing: border-box;
+    text-align: right;
+    float: left;
+    display: none;
+  cursor: pointer;
+    font-size: 30x;
+    }
+.content0
+{   display:flex;
+     justify-content: space-around;
+font-size: 15px;  
+background-color: black;
+color: white;
+padding:0px 40px 0px 500px ;
+   }
+.content2{
+    margin: 0px 110px;
+}
+.content1{width: 20%;
+    border-radius: 0px 0px  10px 10px;
+ justify-content: center;   
+    margin:0px 0px 0px 900px;
+text-align: center;color: white;background-color:navy;   
+    border-style :8px solid; background-color: navy;
+}	
+nav{
+    display:flex;
+   font-size: 15px;
+   justify-content: center;
+   text-align: center;
+    justify-content: space-around;
+}
+.box0{
+     margin: auto;
+    padding-bottom: 10px ;
+    }
+.container1{
+ display: flex;
+justify-content: center;
+font-size: 15px;
+}  
+ .text{text-align: center;
+    padding-top: 20px;    height: 100px;
+    font-style: oblique ;
+     width: 154px;    border:.25px solid grey;
+   border-left: 5px solid navy;
+}
+   .text1{text-align: center;
+    padding-top: 20px;
+    height: 100px;
+    font-style: oblique ;
+        width: 154px;
+            border:.25px solid grey;
+   border-left: 5px solid grey;
+}
+.container3{margin: 0px;
+      padding-left:30px;
+  }
+   .box1{justify-content: center;
+     align-content: center ;   
+       display: flex;
+   }
+.container5{
+    margin-top: 10px;   
+}
+   button{margin: 20px 10px;
+    color:navy;
+color:navy;width: 120px ;height: 50px; letter-spacing: 5px;text-align: center;
+   }
+   
+.content3{justify-content: center;
+    display: flex;
+ background-color: navy;
+color: white;
+justify-content: space-around;width: 100%;
+margin : 0px;padding:30px 0px ;line-height: 1.8;
+}
+.content4 img{display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+         margin: auto;  
+   width: 162px;
+   height: 50px; 
+}
+.button{ margin: 20px 0px;
+display: flex;
+grid-column-gap: 10px;
+    justify-content: space-around;}
+.button input{
+    background-color:grey ;COLOR:WHITE;width: 120px ;height: 50px; letter-spacing: 5px
+}
+
+
+@media only screen and (max-width:700px){
+    .content0{
+        background-color: green;
+padding:0px;margin: 0px;
+    justify-content: space-around;}
+        .content0 p1{
+        display: none;
+    }
+    .content2{
+        padding: 0px;
+        margin: 0px;
+    }.content5{
+      padding: 0px;margin:0px;
+      text-align: left;  
+    }
+    .button1    p2{ width: 100%;
+        padding:0px;
+        margin: 0px;
+
+    }
+    .box1{display: block;
+      }
+   .container3{padding-left: 0px;
+       }
+
+  .toggle{text-align: right;
+           display:block;
+        }
+  .mainmenu{
+            display: none;
+        }
+        .mainmenu.toggleCls{
+            display: block;
+        }
+      nav{display: block;
+}
+nav ul {   
+background-color:blue;
+    font-size:25px;float: left;
+    width:100%;
+}
+nav ul li{text-align: center;
+}
+nav ul li a{color:white;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 12px;
+}
+.container1{
+    	display: block;
+font-size: 15px;
+padding-left: 25px;
+}
+.content1{
+    display: none;
+}
+.container2{ grid-column-gap:2px;
+margin: 0px;padding: 0px;
+    display: flex;
+ }
+.container3 p6{
+    display: none;
+}
+.container4  input1{
+   width: 25%;
+}
+.content3{
+    display: block;
+}.content4{margin: 10px;
+    float: left;
+}.content5{margin :10px;
+    float:right;
+}
+.content6{
+    text-align: center;
+}.content7
+{
+    display: block;
+text-align: center    ;
+}
+.content7 p{
+display: none;    
+}
+.content4 p{
+    display: none;
+}
+.btn2{padding: 0px;margin: 0px;
+    display:block;
+
+}
+.button1{
+    margin: 0px;
+    padding-left: 0px;
+}
+}
